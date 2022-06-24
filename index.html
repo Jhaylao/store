@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album-Maker</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <script src="assets/iapp.js" defer></script>
+</head>
+<body>
+    <div class="backdrop"></div>
+    <div class="register_modal">
+        <div class="modal-1">
+            <div class="form">
+            <label for="">Enter your Email:</label>
+            <input type="email" name="" id="">
+            </div>
+            <div class="form">
+                <label for="">Enter your name:</label>
+                <input type="text" name="" id="">
+            </div>
+            <div id="select" class="form" >
+                <label for="">select Gender:</label>
+                <div class="select_box">
+                    <select name="" id=""  >
+                        <option value="">Select gender</option>
+                          <option value="">Male</option>
+                        <option value="">Female</option>
+                        <option value="">Confused</option>
+                    </select>
+                </div>
+              
+            </div>
+           
+
+        
+    </div>
+    <div class="regContainer"><button class="regContainer_btn" >Register</button></div>
+    </div>
+    <div class="landing_page">
+    <div class="wrapper">
+        <header>
+            <div class="header"><h1>WELCOME TO MY WORLD</h1></div>
+        </header>
+          <main>
+            <div class="main">
+                <div class="main-1"><p>How to use the page:</p></div>
+                <div class="main-2">--->Register</div>
+                <div class="main-3"><p>-->Click the add button to add products</p></div>
+                <div class="main-4"><p>-->Save to create your album</p></div>
+            </div>
+        </main>
+        
+            <div class="footer">
+                <footer>
+                   <div class="start-registration"><button class="start-registration_btn">Start registration</button></div>
+                </footer>    
+            </div>
+    </div>
+    </div>
+
+    <div class="wrapper2">
+        <header class="header_wrapper_2">
+            <div class="header_logo">MOYO.O SHOP</div>
+                <div class="header_button"><button class="addmore">Add more</button></div>
+        </header>
+        <main class="main_wrapper_2">
+            <div class="welcome_paragraph"><p class="custom_welcome">Hi there,<span></span>.It's nice to have you here today.</p></div>
+            <ul class="product_list"></ul>
+            <div class="save_btns">
+                <div class="save"><button class="savebtn">Save</button></div>
+                <div class="done"><button class="donebtn">Done</button></div>
+               <div class="delete_all"><button class="delete_allbtn">Delete</button></div>
+               
+
+            </div>
+        </main>
+    </div>
+
+    <div class="wrapper3">
+        <div class="modal-1">
+            <div class="form">
+            <label for="">Enter Product Title:</label>
+            <input type="text" name="" id="">
+            </div>
+            <div class="form">
+                <label for="">Enter Image Url:</label>
+                <input type="text" name="" id="">
+            </div>
+            <div class="form">
+                <label for="">product Description:</label>
+                <input type="textarea" name="" id="">
+            </div>
+            <div class="modalbtn">
+                <div class="confirm"><button class="yes">ADD</button></div>
+                <div class="decline"><button class="no">CANCEL</button></div>
+            </div>
+      </div>
+    </div>
+    <div class="delete_modal">
+        <h2 class="modal__title">Are you sure?</h2>
+        <p class="modal__content">
+          Are you sure you want to delete this item? This action can't be made
+          undone!
+        </p>
+        <div class="modal__actions">
+          <button class="btn--passive">No (Cancel)</button>
+          <button class="btn--danger">Yes</button>
+        </div>
+      </div> 
+      <div class="wrapperSave">
+        <div class="modal-2">
+            <div class="form">
+              <label for="">Enter Collection Title:</label>
+               <input type="text" name="" id="">
+            </div>
+             <div class="form">
+               <label for="">Enter Collection Avi</label>
+               <input   type="text" name="" id="collection_avi">
+            </div>
+            <div id="select" class="form" >
+                <label for="">Select Collection Category:</label>
+                <div class="select_box" id="select_box">
+                    <select name="" id="collection_selection"  >
+                        <option value="">Select Category</option>
+                        <option value="">Fashion/Arts</option>
+                        <option value="">Food</option>
+                        <option value="">Luxury</option>
+                        <option value="">Appliances</option>
+                        <option value="">Housing</option>
+                        <option value="">Stationery</option>
+                    </select>
+                </div>
+              
+            </div>
+            
+            
+            <div class="modalbtn">
+                <div class="confirm"><button id="add" class="yes">ADD</button></div>
+                <div class="decline"><button id="cancel" class="no">CANCEL</button></div>
+            </div>
+      </div>
+    </div>
+    <div class="collection">
+     <div class="collection_page">
+         <div class="collection_header">Here is your collection,<span></span></div>
+         <div class="collection_list">
+             <ul class="collections_list" ></ul>
+         </div>
+         <div class="newcollection">
+             <button class="addnewbtn">Add New</button>
+         </div>
+     </div>
+    </div>
+    
+</body>
+</html>
